@@ -1,0 +1,23 @@
+
+language = "en"
+title = "WebGenerator Demo"
+
+[dependencies]
+    jquery = ["https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"]
+
+[components]
+    [components.navbar]
+        lib = "custom"
+        type = "simple"
+
+    [components.carousel]
+        lib = "custom"
+        type = "simple"
+
+    [components.table]
+        lib = "custom"
+        type = "simple"
+
+    [components.footer]
+        lib = "custom"
+        type = "simple"
